@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/profileicon"
+            android:title="My Information" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/employesicon"
+
+            android:title="Our Employees" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="?android:attr/actionModeCopyDrawable"
+            android:title="Projects" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/comp"
+                android:icon="@drawable/company"
+                android:title="Company Information" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
